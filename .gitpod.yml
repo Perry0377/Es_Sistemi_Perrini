@@ -1,0 +1,8 @@
+tasks:
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      php -S localhost:8080 -t /workspace/Es_Sistemi_Perrini/.
+ports:
+    - port: 8000
+      onOpen: open-browser
